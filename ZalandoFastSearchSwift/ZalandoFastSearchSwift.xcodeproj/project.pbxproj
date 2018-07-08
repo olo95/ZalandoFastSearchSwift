@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECF24AB920F298A900A1B1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */; };
+		ECF24ABB20F298A900A1B1F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF24ABA20F298A900A1B1F4 /* ViewController.swift */; };
+		ECF24ABE20F298A900A1B1F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF24ABC20F298A900A1B1F4 /* Main.storyboard */; };
+		ECF24AC020F298AB00A1B1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */; };
+		ECF24AC320F298AB00A1B1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF24AC120F298AB00A1B1F4 /* LaunchScreen.storyboard */; };
+		ECF24ACE20F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF24ACD20F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests.swift */; };
+		ECF24AD920F298AB00A1B1F4 /* ZalandoFastSearchSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF24AD820F298AB00A1B1F4 /* ZalandoFastSearchSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECF24ACA20F298AB00A1B1F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF24AAD20F298A900A1B1F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF24AB420F298A900A1B1F4;
+			remoteInfo = ZalandoFastSearchSwift;
+		};
+		ECF24AD520F298AB00A1B1F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF24AAD20F298A900A1B1F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF24AB420F298A900A1B1F4;
+			remoteInfo = ZalandoFastSearchSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECF24AB520F298A900A1B1F4 /* ZalandoFastSearchSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZalandoFastSearchSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECF24ABA20F298A900A1B1F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECF24ABD20F298A900A1B1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF24AC220F298AB00A1B1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECF24AC420F298AB00A1B1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF24AC920F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZalandoFastSearchSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF24ACD20F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZalandoFastSearchSwiftTests.swift; sourceTree = "<group>"; };
+		ECF24ACF20F298AB00A1B1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF24AD420F298AB00A1B1F4 /* ZalandoFastSearchSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZalandoFastSearchSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF24AD820F298AB00A1B1F4 /* ZalandoFastSearchSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZalandoFastSearchSwiftUITests.swift; sourceTree = "<group>"; };
+		ECF24ADA20F298AB00A1B1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECF24AB220F298A900A1B1F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF24AC620F298AB00A1B1F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF24AD120F298AB00A1B1F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECF24AAC20F298A900A1B1F4 = {
+			isa = PBXGroup;
+			children = (
+				ECF24AB720F298A900A1B1F4 /* ZalandoFastSearchSwift */,
+				ECF24ACC20F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests */,
+				ECF24AD720F298AB00A1B1F4 /* ZalandoFastSearchSwiftUITests */,
+				ECF24AB620F298A900A1B1F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECF24AB620F298A900A1B1F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECF24AB520F298A900A1B1F4 /* ZalandoFastSearchSwift.app */,
+				ECF24AC920F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests.xctest */,
+				ECF24AD420F298AB00A1B1F4 /* ZalandoFastSearchSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECF24AB720F298A900A1B1F4 /* ZalandoFastSearchSwift */ = {
+			isa = PBXGroup;
+			children = (
+				ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */,
+				ECF24ABA20F298A900A1B1F4 /* ViewController.swift */,
+				ECF24ABC20F298A900A1B1F4 /* Main.storyboard */,
+				ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */,
+				ECF24AC120F298AB00A1B1F4 /* LaunchScreen.storyboard */,
+				ECF24AC420F298AB00A1B1F4 /* Info.plist */,
+			);
+			path = ZalandoFastSearchSwift;
+			sourceTree = "<group>";
+		};
+		ECF24ACC20F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF24ACD20F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests.swift */,
+				ECF24ACF20F298AB00A1B1F4 /* Info.plist */,
+			);
+			path = ZalandoFastSearchSwiftTests;
+			sourceTree = "<group>";
+		};
+		ECF24AD720F298AB00A1B1F4 /* ZalandoFastSearchSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF24AD820F298AB00A1B1F4 /* ZalandoFastSearchSwiftUITests.swift */,
+				ECF24ADA20F298AB00A1B1F4 /* Info.plist */,
+			);
+			path = ZalandoFastSearchSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECF24AB420F298A900A1B1F4 /* ZalandoFastSearchSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF24ADD20F298AB00A1B1F4 /* Build configuration list for PBXNativeTarget "ZalandoFastSearchSwift" */;
+			buildPhases = (
+				ECF24AB120F298A900A1B1F4 /* Sources */,
+				ECF24AB220F298A900A1B1F4 /* Frameworks */,
+				ECF24AB320F298A900A1B1F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZalandoFastSearchSwift;
+			productName = ZalandoFastSearchSwift;
+			productReference = ECF24AB520F298A900A1B1F4 /* ZalandoFastSearchSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECF24AC820F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF24AE020F298AB00A1B1F4 /* Build configuration list for PBXNativeTarget "ZalandoFastSearchSwiftTests" */;
+			buildPhases = (
+				ECF24AC520F298AB00A1B1F4 /* Sources */,
+				ECF24AC620F298AB00A1B1F4 /* Frameworks */,
+				ECF24AC720F298AB00A1B1F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF24ACB20F298AB00A1B1F4 /* PBXTargetDependency */,
+			);
+			name = ZalandoFastSearchSwiftTests;
+			productName = ZalandoFastSearchSwiftTests;
+			productReference = ECF24AC920F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECF24AD320F298AB00A1B1F4 /* ZalandoFastSearchSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF24AE320F298AB00A1B1F4 /* Build configuration list for PBXNativeTarget "ZalandoFastSearchSwiftUITests" */;
+			buildPhases = (
+				ECF24AD020F298AB00A1B1F4 /* Sources */,
+				ECF24AD120F298AB00A1B1F4 /* Frameworks */,
+				ECF24AD220F298AB00A1B1F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF24AD620F298AB00A1B1F4 /* PBXTargetDependency */,
+			);
+			name = ZalandoFastSearchSwiftUITests;
+			productName = ZalandoFastSearchSwiftUITests;
+			productReference = ECF24AD420F298AB00A1B1F4 /* ZalandoFastSearchSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECF24AAD20F298A900A1B1F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alexander Stolar";
+				TargetAttributes = {
+					ECF24AB420F298A900A1B1F4 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					ECF24AC820F298AB00A1B1F4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ECF24AB420F298A900A1B1F4;
+					};
+					ECF24AD320F298AB00A1B1F4 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ECF24AB420F298A900A1B1F4;
+					};
+				};
+			};
+			buildConfigurationList = ECF24AB020F298A900A1B1F4 /* Build configuration list for PBXProject "ZalandoFastSearchSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECF24AAC20F298A900A1B1F4;
+			productRefGroup = ECF24AB620F298A900A1B1F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECF24AB420F298A900A1B1F4 /* ZalandoFastSearchSwift */,
+				ECF24AC820F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests */,
+				ECF24AD320F298AB00A1B1F4 /* ZalandoFastSearchSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECF24AB320F298A900A1B1F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF24AC320F298AB00A1B1F4 /* LaunchScreen.storyboard in Resources */,
+				ECF24AC020F298AB00A1B1F4 /* Assets.xcassets in Resources */,
+				ECF24ABE20F298A900A1B1F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF24AC720F298AB00A1B1F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF24AD220F298AB00A1B1F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECF24AB120F298A900A1B1F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF24ABB20F298A900A1B1F4 /* ViewController.swift in Sources */,
+				ECF24AB920F298A900A1B1F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF24AC520F298AB00A1B1F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF24ACE20F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF24AD020F298AB00A1B1F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF24AD920F298AB00A1B1F4 /* ZalandoFastSearchSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECF24ACB20F298AB00A1B1F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF24AB420F298A900A1B1F4 /* ZalandoFastSearchSwift */;
+			targetProxy = ECF24ACA20F298AB00A1B1F4 /* PBXContainerItemProxy */;
+		};
+		ECF24AD620F298AB00A1B1F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF24AB420F298A900A1B1F4 /* ZalandoFastSearchSwift */;
+			targetProxy = ECF24AD520F298AB00A1B1F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECF24ABC20F298A900A1B1F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF24ABD20F298A900A1B1F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF24AC120F298AB00A1B1F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF24AC220F298AB00A1B1F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECF24ADB20F298AB00A1B1F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECF24ADC20F298AB00A1B1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECF24ADE20F298AB00A1B1F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T289F6WJGZ;
+				INFOPLIST_FILE = ZalandoFastSearchSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = olo95.ZalandoFastSearchSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECF24ADF20F298AB00A1B1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T289F6WJGZ;
+				INFOPLIST_FILE = ZalandoFastSearchSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = olo95.ZalandoFastSearchSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECF24AE120F298AB00A1B1F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T289F6WJGZ;
+				INFOPLIST_FILE = ZalandoFastSearchSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = olo95.ZalandoFastSearchSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZalandoFastSearchSwift.app/ZalandoFastSearchSwift";
+			};
+			name = Debug;
+		};
+		ECF24AE220F298AB00A1B1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T289F6WJGZ;
+				INFOPLIST_FILE = ZalandoFastSearchSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = olo95.ZalandoFastSearchSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZalandoFastSearchSwift.app/ZalandoFastSearchSwift";
+			};
+			name = Release;
+		};
+		ECF24AE420F298AB00A1B1F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T289F6WJGZ;
+				INFOPLIST_FILE = ZalandoFastSearchSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = olo95.ZalandoFastSearchSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZalandoFastSearchSwift;
+			};
+			name = Debug;
+		};
+		ECF24AE520F298AB00A1B1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T289F6WJGZ;
+				INFOPLIST_FILE = ZalandoFastSearchSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = olo95.ZalandoFastSearchSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZalandoFastSearchSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECF24AB020F298A900A1B1F4 /* Build configuration list for PBXProject "ZalandoFastSearchSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF24ADB20F298AB00A1B1F4 /* Debug */,
+				ECF24ADC20F298AB00A1B1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF24ADD20F298AB00A1B1F4 /* Build configuration list for PBXNativeTarget "ZalandoFastSearchSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF24ADE20F298AB00A1B1F4 /* Debug */,
+				ECF24ADF20F298AB00A1B1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF24AE020F298AB00A1B1F4 /* Build configuration list for PBXNativeTarget "ZalandoFastSearchSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF24AE120F298AB00A1B1F4 /* Debug */,
+				ECF24AE220F298AB00A1B1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF24AE320F298AB00A1B1F4 /* Build configuration list for PBXNativeTarget "ZalandoFastSearchSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF24AE420F298AB00A1B1F4 /* Debug */,
+				ECF24AE520F298AB00A1B1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECF24AAD20F298A900A1B1F4 /* Project object */;
+}

@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.7.2)
+  - FlexLayout (1.3.9)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Result (3.2.4)
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - FlexLayout
+  - Moya
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - FlexLayout
+    - Moya
+    - Result
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  FlexLayout: dbe4b2da72ee63d7145cf32bb5bfba375aeeb9e6
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: c76ec34a2122bb06eca4e8a93b04cc62749adbb7
+
+COCOAPODS: 1.5.3
