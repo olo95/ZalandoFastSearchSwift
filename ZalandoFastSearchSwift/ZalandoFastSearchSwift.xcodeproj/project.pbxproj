@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BB27C5572A3D4D801C1DAE1 /* Pods_ZalandoFastSearchSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A4A7D90859E73D8B46A1ED /* Pods_ZalandoFastSearchSwift.framework */; };
+		5B3E697BB7AA8F1C814D43EC /* Pods_ZalandoFastSearchSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DACF50939638C5C5A3E3D1E /* Pods_ZalandoFastSearchSwiftTests.framework */; };
+		9411C6D0700BC09B2B3A3BBB /* Pods_ZalandoFastSearchSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4806E9D819B1E85BBB497B /* Pods_ZalandoFastSearchSwiftUITests.framework */; };
 		ECF24AB920F298A900A1B1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */; };
-		ECF24ABB20F298A900A1B1F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF24ABA20F298A900A1B1F4 /* ViewController.swift */; };
-		ECF24ABE20F298A900A1B1F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF24ABC20F298A900A1B1F4 /* Main.storyboard */; };
 		ECF24AC020F298AB00A1B1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */; };
 		ECF24AC320F298AB00A1B1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF24AC120F298AB00A1B1F4 /* LaunchScreen.storyboard */; };
 		ECF24ACE20F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF24ACD20F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests.swift */; };
@@ -34,10 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DACF50939638C5C5A3E3D1E /* Pods_ZalandoFastSearchSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZalandoFastSearchSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A4A7D90859E73D8B46A1ED /* Pods_ZalandoFastSearchSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZalandoFastSearchSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E727F970BD553826FD8A34A /* Pods-ZalandoFastSearchSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZalandoFastSearchSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZalandoFastSearchSwiftTests/Pods-ZalandoFastSearchSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A4806E9D819B1E85BBB497B /* Pods_ZalandoFastSearchSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZalandoFastSearchSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F016E11AA2DA2A721B324E /* Pods-ZalandoFastSearchSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZalandoFastSearchSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZalandoFastSearchSwift/Pods-ZalandoFastSearchSwift.release.xcconfig"; sourceTree = "<group>"; };
+		94F8CA5A7E176E75436CA3FA /* Pods-ZalandoFastSearchSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZalandoFastSearchSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZalandoFastSearchSwift/Pods-ZalandoFastSearchSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		B87941F3B936CB401C88065E /* Pods-ZalandoFastSearchSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZalandoFastSearchSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZalandoFastSearchSwiftUITests/Pods-ZalandoFastSearchSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C62F32B34E56D35865E1BA44 /* Pods-ZalandoFastSearchSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZalandoFastSearchSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZalandoFastSearchSwiftUITests/Pods-ZalandoFastSearchSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DF77527D03F9BFFCA804EA1A /* Pods-ZalandoFastSearchSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZalandoFastSearchSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZalandoFastSearchSwiftTests/Pods-ZalandoFastSearchSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF24AB520F298A900A1B1F4 /* ZalandoFastSearchSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZalandoFastSearchSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECF24ABA20F298A900A1B1F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ECF24ABD20F298A900A1B1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECF24AC220F298AB00A1B1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECF24AC420F298AB00A1B1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BB27C5572A3D4D801C1DAE1 /* Pods_ZalandoFastSearchSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B3E697BB7AA8F1C814D43EC /* Pods_ZalandoFastSearchSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +78,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9411C6D0700BC09B2B3A3BBB /* Pods_ZalandoFastSearchSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		313327A3FF7CD9A0CCF531B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24A4A7D90859E73D8B46A1ED /* Pods_ZalandoFastSearchSwift.framework */,
+				0DACF50939638C5C5A3E3D1E /* Pods_ZalandoFastSearchSwiftTests.framework */,
+				7A4806E9D819B1E85BBB497B /* Pods_ZalandoFastSearchSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55F363D74D9781EF4A5F7D53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94F8CA5A7E176E75436CA3FA /* Pods-ZalandoFastSearchSwift.debug.xcconfig */,
+				86F016E11AA2DA2A721B324E /* Pods-ZalandoFastSearchSwift.release.xcconfig */,
+				DF77527D03F9BFFCA804EA1A /* Pods-ZalandoFastSearchSwiftTests.debug.xcconfig */,
+				4E727F970BD553826FD8A34A /* Pods-ZalandoFastSearchSwiftTests.release.xcconfig */,
+				B87941F3B936CB401C88065E /* Pods-ZalandoFastSearchSwiftUITests.debug.xcconfig */,
+				C62F32B34E56D35865E1BA44 /* Pods-ZalandoFastSearchSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ECF24AAC20F298A900A1B1F4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				ECF24ACC20F298AB00A1B1F4 /* ZalandoFastSearchSwiftTests */,
 				ECF24AD720F298AB00A1B1F4 /* ZalandoFastSearchSwiftUITests */,
 				ECF24AB620F298A900A1B1F4 /* Products */,
+				55F363D74D9781EF4A5F7D53 /* Pods */,
+				313327A3FF7CD9A0CCF531B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +133,11 @@
 		ECF24AB720F298A900A1B1F4 /* ZalandoFastSearchSwift */ = {
 			isa = PBXGroup;
 			children = (
+				ECF24AE920F2AA9800A1B1F4 /* Managers */,
+				ECF24AE820F2AA9100A1B1F4 /* Extensions */,
+				ECF24AE720F2AA8A00A1B1F4 /* API */,
+				ECF24AE620F2AA7200A1B1F4 /* Modules */,
 				ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */,
-				ECF24ABA20F298A900A1B1F4 /* ViewController.swift */,
-				ECF24ABC20F298A900A1B1F4 /* Main.storyboard */,
 				ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */,
 				ECF24AC120F298AB00A1B1F4 /* LaunchScreen.storyboard */,
 				ECF24AC420F298AB00A1B1F4 /* Info.plist */,
@@ -125,6 +163,34 @@
 			path = ZalandoFastSearchSwiftUITests;
 			sourceTree = "<group>";
 		};
+		ECF24AE620F2AA7200A1B1F4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		ECF24AE720F2AA8A00A1B1F4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		ECF24AE820F2AA9100A1B1F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ECF24AE920F2AA9800A1B1F4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECF24ADD20F298AB00A1B1F4 /* Build configuration list for PBXNativeTarget "ZalandoFastSearchSwift" */;
 			buildPhases = (
+				36CB2D0A914215267564A6D5 /* [CP] Check Pods Manifest.lock */,
 				ECF24AB120F298A900A1B1F4 /* Sources */,
 				ECF24AB220F298A900A1B1F4 /* Frameworks */,
 				ECF24AB320F298A900A1B1F4 /* Resources */,
+				B09185F2F689B707AB364E86 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECF24AE020F298AB00A1B1F4 /* Build configuration list for PBXNativeTarget "ZalandoFastSearchSwiftTests" */;
 			buildPhases = (
+				66D5A84F66C6B31899F94BD9 /* [CP] Check Pods Manifest.lock */,
 				ECF24AC520F298AB00A1B1F4 /* Sources */,
 				ECF24AC620F298AB00A1B1F4 /* Frameworks */,
 				ECF24AC720F298AB00A1B1F4 /* Resources */,
@@ -167,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECF24AE320F298AB00A1B1F4 /* Build configuration list for PBXNativeTarget "ZalandoFastSearchSwiftUITests" */;
 			buildPhases = (
+				AC1D65414BCB6E332582CF10 /* [CP] Check Pods Manifest.lock */,
 				ECF24AD020F298AB00A1B1F4 /* Sources */,
 				ECF24AD120F298AB00A1B1F4 /* Frameworks */,
 				ECF24AD220F298AB00A1B1F4 /* Resources */,
@@ -231,7 +301,6 @@
 			files = (
 				ECF24AC320F298AB00A1B1F4 /* LaunchScreen.storyboard in Resources */,
 				ECF24AC020F298AB00A1B1F4 /* Assets.xcassets in Resources */,
-				ECF24ABE20F298A900A1B1F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +320,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36CB2D0A914215267564A6D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZalandoFastSearchSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66D5A84F66C6B31899F94BD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZalandoFastSearchSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC1D65414BCB6E332582CF10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZalandoFastSearchSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B09185F2F689B707AB364E86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZalandoFastSearchSwift/Pods-ZalandoFastSearchSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FlexLayout/FlexLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlexLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZalandoFastSearchSwift/Pods-ZalandoFastSearchSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECF24AB120F298A900A1B1F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECF24ABB20F298A900A1B1F4 /* ViewController.swift in Sources */,
 				ECF24AB920F298A900A1B1F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +448,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ECF24ABC20F298A900A1B1F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECF24ABD20F298A900A1B1F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ECF24AC120F298AB00A1B1F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,6 +575,7 @@
 		};
 		ECF24ADE20F298AB00A1B1F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F8CA5A7E176E75436CA3FA /* Pods-ZalandoFastSearchSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +594,7 @@
 		};
 		ECF24ADF20F298AB00A1B1F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86F016E11AA2DA2A721B324E /* Pods-ZalandoFastSearchSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +613,7 @@
 		};
 		ECF24AE120F298AB00A1B1F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF77527D03F9BFFCA804EA1A /* Pods-ZalandoFastSearchSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +635,7 @@
 		};
 		ECF24AE220F298AB00A1B1F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E727F970BD553826FD8A34A /* Pods-ZalandoFastSearchSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +657,7 @@
 		};
 		ECF24AE420F298AB00A1B1F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B87941F3B936CB401C88065E /* Pods-ZalandoFastSearchSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +678,7 @@
 		};
 		ECF24AE520F298AB00A1B1F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62F32B34E56D35865E1BA44 /* Pods-ZalandoFastSearchSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
