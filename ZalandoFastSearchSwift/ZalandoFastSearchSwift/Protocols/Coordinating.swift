@@ -11,9 +11,9 @@ import class UIKit.UIViewController
 import class UIKit.CATransaction
 
 protocol Coordinating: class {
-    var navigationController: UINavigationController { get set }
+    var navigationController: UINavigationController { get }
     var childCoordinators: [Coordinating] { get set }
-    var rootCoordinator: Coordinating { get set }
+    var rootCoordinator: Coordinating { get }
     var parentCoordinator: Coordinating? { get set }
     
     func addNew(coordinator: Coordinating, fromRoot: Bool, completionHandler: (() -> ())?)
@@ -23,7 +23,7 @@ protocol Coordinating: class {
     func present(viewController: UIViewController, completionHandler: (() -> ())?)
     func dismiss(viewController: UIViewController, completionHandler: (() -> ())?)
     func push(viewController: UIViewController, completionHandler: (() -> ())?)
-    func pop(viewController: UIViewController, completionHandler: (() -> ())?)
+    func pop(completionHandler: (() -> ())?)
     
     func start()
     init(parent: Coordinating?)

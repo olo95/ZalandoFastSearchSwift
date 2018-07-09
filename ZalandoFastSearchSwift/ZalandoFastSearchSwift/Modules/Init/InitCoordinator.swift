@@ -6,4 +6,24 @@
 //  Copyright © 2018 Alexander Stolar. All rights reserved.
 //
 
-import Foundation
+import class UIKit.UINavigationController
+
+class InitCoordinator: Coordinating {
+    
+    var navigationController: UINavigationController = {
+        return UINavigationController()
+    }()
+    
+    var childCoordinators: [Coordinating] = []
+    var parentCoordinator: Coordinating?
+    
+    func start() {
+        
+    }
+    
+    required init(parent: Coordinating?) {
+        self.parentCoordinator = parent
+    }
+    
+    
+}
