@@ -10,6 +10,13 @@
 		2BB27C5572A3D4D801C1DAE1 /* Pods_ZalandoFastSearchSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A4A7D90859E73D8B46A1ED /* Pods_ZalandoFastSearchSwift.framework */; };
 		5B3E697BB7AA8F1C814D43EC /* Pods_ZalandoFastSearchSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DACF50939638C5C5A3E3D1E /* Pods_ZalandoFastSearchSwiftTests.framework */; };
 		9411C6D0700BC09B2B3A3BBB /* Pods_ZalandoFastSearchSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4806E9D819B1E85BBB497B /* Pods_ZalandoFastSearchSwiftUITests.framework */; };
+		EC82FB4820F3FE6400EF1D29 /* Coordinating.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB4720F3FE6400EF1D29 /* Coordinating.swift */; };
+		EC82FB4A20F4272800EF1D29 /* InitCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB4920F4272800EF1D29 /* InitCoordinator.swift */; };
+		EC82FB4C20F4273700EF1D29 /* CreatePresetCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB4B20F4273700EF1D29 /* CreatePresetCoordinator.swift */; };
+		EC82FB4E20F4274100EF1D29 /* ResultCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB4D20F4274100EF1D29 /* ResultCoordinator.swift */; };
+		EC82FB5020F4274C00EF1D29 /* PresetsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB4F20F4274C00EF1D29 /* PresetsCoordinator.swift */; };
+		EC82FB5220F4275600EF1D29 /* RegisterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB5120F4275600EF1D29 /* RegisterCoordinator.swift */; };
+		EC82FB5420F4276200EF1D29 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB5320F4276200EF1D29 /* LoginCoordinator.swift */; };
 		ECF24AB920F298A900A1B1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */; };
 		ECF24AC020F298AB00A1B1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */; };
 		ECF24AC320F298AB00A1B1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF24AC120F298AB00A1B1F4 /* LaunchScreen.storyboard */; };
@@ -44,6 +51,13 @@
 		B87941F3B936CB401C88065E /* Pods-ZalandoFastSearchSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZalandoFastSearchSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZalandoFastSearchSwiftUITests/Pods-ZalandoFastSearchSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C62F32B34E56D35865E1BA44 /* Pods-ZalandoFastSearchSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZalandoFastSearchSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZalandoFastSearchSwiftUITests/Pods-ZalandoFastSearchSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DF77527D03F9BFFCA804EA1A /* Pods-ZalandoFastSearchSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZalandoFastSearchSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZalandoFastSearchSwiftTests/Pods-ZalandoFastSearchSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC82FB4720F3FE6400EF1D29 /* Coordinating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinating.swift; sourceTree = "<group>"; };
+		EC82FB4920F4272800EF1D29 /* InitCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitCoordinator.swift; sourceTree = "<group>"; };
+		EC82FB4B20F4273700EF1D29 /* CreatePresetCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePresetCoordinator.swift; sourceTree = "<group>"; };
+		EC82FB4D20F4274100EF1D29 /* ResultCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCoordinator.swift; sourceTree = "<group>"; };
+		EC82FB4F20F4274C00EF1D29 /* PresetsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetsCoordinator.swift; sourceTree = "<group>"; };
+		EC82FB5120F4275600EF1D29 /* RegisterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCoordinator.swift; sourceTree = "<group>"; };
+		EC82FB5320F4276200EF1D29 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		ECF24AB520F298A900A1B1F4 /* ZalandoFastSearchSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZalandoFastSearchSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,6 +125,7 @@
 		EC82FB3E20F3FC3400EF1D29 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				EC82FB5320F4276200EF1D29 /* LoginCoordinator.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -118,6 +133,7 @@
 		EC82FB3F20F3FC3F00EF1D29 /* Register */ = {
 			isa = PBXGroup;
 			children = (
+				EC82FB5120F4275600EF1D29 /* RegisterCoordinator.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -125,6 +141,7 @@
 		EC82FB4020F3FC4500EF1D29 /* Presets */ = {
 			isa = PBXGroup;
 			children = (
+				EC82FB4F20F4274C00EF1D29 /* PresetsCoordinator.swift */,
 			);
 			path = Presets;
 			sourceTree = "<group>";
@@ -132,6 +149,7 @@
 		EC82FB4120F3FC5100EF1D29 /* Result */ = {
 			isa = PBXGroup;
 			children = (
+				EC82FB4D20F4274100EF1D29 /* ResultCoordinator.swift */,
 			);
 			path = Result;
 			sourceTree = "<group>";
@@ -139,6 +157,7 @@
 		EC82FB4220F3FC5A00EF1D29 /* CreatePreset */ = {
 			isa = PBXGroup;
 			children = (
+				EC82FB4B20F4273700EF1D29 /* CreatePresetCoordinator.swift */,
 			);
 			path = CreatePreset;
 			sourceTree = "<group>";
@@ -160,6 +179,7 @@
 		EC82FB4520F3FD5800EF1D29 /* Init */ = {
 			isa = PBXGroup;
 			children = (
+				EC82FB4920F4272800EF1D29 /* InitCoordinator.swift */,
 			);
 			path = Init;
 			sourceTree = "<group>";
@@ -167,6 +187,7 @@
 		EC82FB4620F3FD6D00EF1D29 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				EC82FB4720F3FE6400EF1D29 /* Coordinating.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -484,7 +505,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC82FB4A20F4272800EF1D29 /* InitCoordinator.swift in Sources */,
+				EC82FB5020F4274C00EF1D29 /* PresetsCoordinator.swift in Sources */,
+				EC82FB4E20F4274100EF1D29 /* ResultCoordinator.swift in Sources */,
+				EC82FB5220F4275600EF1D29 /* RegisterCoordinator.swift in Sources */,
+				EC82FB4820F3FE6400EF1D29 /* Coordinating.swift in Sources */,
 				ECF24AB920F298A900A1B1F4 /* AppDelegate.swift in Sources */,
+				EC82FB5420F4276200EF1D29 /* LoginCoordinator.swift in Sources */,
+				EC82FB4C20F4273700EF1D29 /* CreatePresetCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
