@@ -108,6 +108,69 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EC82FB3E20F3FC3400EF1D29 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EC82FB3F20F3FC3F00EF1D29 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		EC82FB4020F3FC4500EF1D29 /* Presets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presets;
+			sourceTree = "<group>";
+		};
+		EC82FB4120F3FC5100EF1D29 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		EC82FB4220F3FC5A00EF1D29 /* CreatePreset */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CreatePreset;
+			sourceTree = "<group>";
+		};
+		EC82FB4320F3FD0A00EF1D29 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EC82FB4420F3FD4200EF1D29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC82FB4520F3FD5800EF1D29 /* Init */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Init;
+			sourceTree = "<group>";
+		};
+		EC82FB4620F3FD6D00EF1D29 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		ECF24AAC20F298A900A1B1F4 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +196,9 @@
 		ECF24AB720F298A900A1B1F4 /* ZalandoFastSearchSwift */ = {
 			isa = PBXGroup;
 			children = (
+				EC82FB4620F3FD6D00EF1D29 /* Protocols */,
+				EC82FB4420F3FD4200EF1D29 /* Models */,
+				EC82FB4320F3FD0A00EF1D29 /* Utils */,
 				ECF24AE920F2AA9800A1B1F4 /* Managers */,
 				ECF24AE820F2AA9100A1B1F4 /* Extensions */,
 				ECF24AE720F2AA8A00A1B1F4 /* API */,
@@ -166,6 +232,12 @@
 		ECF24AE620F2AA7200A1B1F4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				EC82FB4520F3FD5800EF1D29 /* Init */,
+				EC82FB4220F3FC5A00EF1D29 /* CreatePreset */,
+				EC82FB4120F3FC5100EF1D29 /* Result */,
+				EC82FB4020F3FC4500EF1D29 /* Presets */,
+				EC82FB3F20F3FC3F00EF1D29 /* Register */,
+				EC82FB3E20F3FC3400EF1D29 /* Login */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
