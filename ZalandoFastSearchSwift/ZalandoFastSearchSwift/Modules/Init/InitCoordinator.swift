@@ -7,9 +7,13 @@
 //
 
 import class UIKit.UINavigationController
+import class UIKit.UIViewController
+import class UIKit.UIWindow
+import class UIKit.UIScreen
 
 class InitCoordinator: Coordinating {
     
+    let window: UIWindow
     var navigationController: UINavigationController = {
         return UINavigationController()
     }()
@@ -18,11 +22,15 @@ class InitCoordinator: Coordinating {
     var parentCoordinator: Coordinating?
     
     func start() {
-        addNew(coordinator: LoginCoordinator(parent: self), fromRoot: true, completionHandler: nil)
+        navigationController.setViewControllers([UIViewController()], animated: false)
+        addNew(coordinator: LoginCoordinator(parent: self), fromRoot: false, completionHandler: nil)
     }
     
     required init(parent: Coordinating?) {
         self.parentCoordinator = parent
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window.rootViewController = navigationController
+        window.makeKeyAndVisible()
     }
     
     

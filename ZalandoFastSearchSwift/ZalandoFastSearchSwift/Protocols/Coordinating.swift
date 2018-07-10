@@ -17,7 +17,6 @@ protocol Coordinating: class {
     var parentCoordinator: Coordinating? { get set }
     
     func addNew(coordinator: Coordinating, fromRoot: Bool, completionHandler: (() -> ())?)
-    func addChild(coordinator: Coordinating)
     func removeChild(coordinator: Coordinating)
     
     func present(viewController: UIViewController, completionHandler: (() -> ())?)
@@ -58,10 +57,6 @@ extension Coordinating {
                 completionHandler?()
             }
         }
-    }
-    
-    func addChild(coordinator: Coordinating) {
-        childCoordinators.append(coordinator)
     }
     
     func removeChild(coordinator: Coordinating) {

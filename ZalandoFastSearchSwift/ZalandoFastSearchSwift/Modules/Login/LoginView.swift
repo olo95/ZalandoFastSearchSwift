@@ -13,10 +13,29 @@ import MaterialComponents.MaterialTextFields
 
 class LoginView: BaseView {
     
-    private let rootFlexContainer = UIView()
-    private let contentView = UIScrollView()
-    private let loginContainer = UIView()
-    private let titleLabel = UIView()
+    private let rootFlexContainer: UIView = {
+        let view = UIView()
+        view.backgroundColor = ColorTheme.background.value
+        return view
+    }()
+    
+    private let contentView: UIScrollView = {
+        let scrollView = UIScrollView()
+        scrollView.backgroundColor = ColorTheme.background.value
+        return scrollView
+    }()
+    
+    private let loginContainer: UIView = {
+        let view = UIView()
+        view.backgroundColor = ColorTheme.surface.value
+        return view
+    }()
+    
+    private let titleLabel: UILabel = {
+        let label = UILabel()
+        return label
+    }()
+    
     private let loginTextField = MDCTextField()
     private let passwordTextField = MDCTextField()
     private let loginButton = MDCButton()
@@ -24,11 +43,13 @@ class LoginView: BaseView {
     
     private lazy var loginTextFieldController: MDCTextInputControllerOutlined = {
         let textFieldController = MDCTextInputControllerOutlined(textInput: loginTextField)
+        textFieldController.placeholderText = "Login"
         return textFieldController
     }()
     
     private lazy var passwordTextFieldController: MDCTextInputControllerOutlined = {
         let textFieldController = MDCTextInputControllerOutlined(textInput: loginTextField)
+        textFieldController.placeholderText = "Password"
         return textFieldController
     }()
     
@@ -43,21 +64,19 @@ class LoginView: BaseView {
     
     private func setContainer() {
         rootFlexContainer.flex
-            .backgroundColor(ColorTheme.background.value)
             .define { flex in
                 flex.addItem()
                     .marginTop(33%)
                     .marginLeft(8)
                     .marginRight(8)
-                    .marginBottom(10%)
                     .shadow(shadowOffset: CGSize(width: 5, height: 5), shadowOpacity: 0.5, shadowRadius: 1.0)
-                    .backgroundColor(ColorTheme.surface.value)
+                    .direction(.column)
                     .define { flex in
                         flex.addItem(titleLabel)
                         flex.addItem(loginTextField)
                         flex.addItem(passwordTextField)
-                        flex.addItem(loginButton)
-                        flex.addItem(registerButton)
+                        flex.addItem(loginButton).width(128).height(48).alignSelf(.center)
+                        flex.addItem(registerButton).width(128).height(48).alignSelf(.center)
                 }
         }
         
