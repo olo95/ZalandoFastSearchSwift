@@ -18,7 +18,7 @@ class LoginCoordinator: Coordinating {
     var parentCoordinator: Coordinating?
     
     func start() {
-        
+        navigationController.setViewControllers([LoginViewController(viewModel: LoginViewModel(flowDelegate: self))], animated: true)
     }
     
     required init(parent: Coordinating?) {

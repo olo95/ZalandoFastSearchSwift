@@ -6,7 +6,11 @@ target 'ZalandoFastSearchSwift' do
   use_frameworks!
 
   # Pods for ZalandoFastSearchSwift
+  pod 'MaterialComponents/TextFields'
+  pod 'MaterialComponents/Buttons'
+  
   pod 'FlexLayout'
+  pod 'PinLayout'
   pod 'SnapKit'
   pod 'Moya'
   pod 'RxSwift'

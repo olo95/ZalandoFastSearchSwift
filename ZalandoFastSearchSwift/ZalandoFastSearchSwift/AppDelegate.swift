@@ -13,12 +13,17 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    private let initCoordinator: InitCoordinator = {
+        let initCoordinator = InitCoordinator(parent: nil)
+        initCoordinator.start()
+       return initCoordinator
+    }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
     
         window = UIWindow(frame: .zero)
-        window?.rootViewController = UINavigationController()
+        window?.rootViewController = initCoordinator.navigationController
         window?.makeKeyAndVisible()
         
         return true

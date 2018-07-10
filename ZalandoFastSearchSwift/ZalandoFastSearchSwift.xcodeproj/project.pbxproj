@@ -17,6 +17,13 @@
 		EC82FB5020F4274C00EF1D29 /* PresetsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB4F20F4274C00EF1D29 /* PresetsCoordinator.swift */; };
 		EC82FB5220F4275600EF1D29 /* RegisterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB5120F4275600EF1D29 /* RegisterCoordinator.swift */; };
 		EC82FB5420F4276200EF1D29 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB5320F4276200EF1D29 /* LoginCoordinator.swift */; };
+		EC87503020F4E999008D2ED4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87502F20F4E999008D2ED4 /* LoginView.swift */; };
+		EC87503220F4E9A4008D2ED4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87503120F4E9A4008D2ED4 /* LoginViewModel.swift */; };
+		EC87503420F4E9AD008D2ED4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87503320F4E9AD008D2ED4 /* LoginViewController.swift */; };
+		EC87503820F4EC26008D2ED4 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87503720F4EC26008D2ED4 /* ColorTheme.swift */; };
+		EC87503B20F4F465008D2ED4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87503A20F4F465008D2ED4 /* BaseView.swift */; };
+		EC87503D20F4FBCC008D2ED4 /* Flex+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87503C20F4FBCC008D2ED4 /* Flex+Extension.swift */; };
+		EC87503F20F4FD34008D2ED4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87503E20F4FD34008D2ED4 /* BaseViewController.swift */; };
 		ECF24AB920F298A900A1B1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */; };
 		ECF24AC020F298AB00A1B1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */; };
 		ECF24AC320F298AB00A1B1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF24AC120F298AB00A1B1F4 /* LaunchScreen.storyboard */; };
@@ -58,6 +65,13 @@
 		EC82FB4F20F4274C00EF1D29 /* PresetsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetsCoordinator.swift; sourceTree = "<group>"; };
 		EC82FB5120F4275600EF1D29 /* RegisterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCoordinator.swift; sourceTree = "<group>"; };
 		EC82FB5320F4276200EF1D29 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		EC87502F20F4E999008D2ED4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EC87503120F4E9A4008D2ED4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EC87503320F4E9AD008D2ED4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EC87503720F4EC26008D2ED4 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		EC87503A20F4F465008D2ED4 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		EC87503C20F4FBCC008D2ED4 /* Flex+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flex+Extension.swift"; sourceTree = "<group>"; };
+		EC87503E20F4FD34008D2ED4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		ECF24AB520F298A900A1B1F4 /* ZalandoFastSearchSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZalandoFastSearchSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,6 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				EC82FB5320F4276200EF1D29 /* LoginCoordinator.swift */,
+				EC87502F20F4E999008D2ED4 /* LoginView.swift */,
+				EC87503120F4E9A4008D2ED4 /* LoginViewModel.swift */,
+				EC87503320F4E9AD008D2ED4 /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -165,6 +182,7 @@
 		EC82FB4320F3FD0A00EF1D29 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				EC87503720F4EC26008D2ED4 /* ColorTheme.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -192,6 +210,15 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		EC87503920F4F45A008D2ED4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EC87503A20F4F465008D2ED4 /* BaseView.swift */,
+				EC87503E20F4FD34008D2ED4 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		ECF24AAC20F298A900A1B1F4 = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +244,7 @@
 		ECF24AB720F298A900A1B1F4 /* ZalandoFastSearchSwift */ = {
 			isa = PBXGroup;
 			children = (
+				EC87503920F4F45A008D2ED4 /* Base */,
 				EC82FB4620F3FD6D00EF1D29 /* Protocols */,
 				EC82FB4420F3FD4200EF1D29 /* Models */,
 				EC82FB4320F3FD0A00EF1D29 /* Utils */,
@@ -273,6 +301,7 @@
 		ECF24AE820F2AA9100A1B1F4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				EC87503C20F4FBCC008D2ED4 /* Flex+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -477,7 +506,11 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ZalandoFastSearchSwift/Pods-ZalandoFastSearchSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FlexLayout/FlexLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PinLayout/PinLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
@@ -487,7 +520,11 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlexLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
@@ -506,13 +543,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC82FB4A20F4272800EF1D29 /* InitCoordinator.swift in Sources */,
+				EC87503B20F4F465008D2ED4 /* BaseView.swift in Sources */,
 				EC82FB5020F4274C00EF1D29 /* PresetsCoordinator.swift in Sources */,
 				EC82FB4E20F4274100EF1D29 /* ResultCoordinator.swift in Sources */,
+				EC87503020F4E999008D2ED4 /* LoginView.swift in Sources */,
+				EC87503F20F4FD34008D2ED4 /* BaseViewController.swift in Sources */,
 				EC82FB5220F4275600EF1D29 /* RegisterCoordinator.swift in Sources */,
 				EC82FB4820F3FE6400EF1D29 /* Coordinating.swift in Sources */,
 				ECF24AB920F298A900A1B1F4 /* AppDelegate.swift in Sources */,
+				EC87503D20F4FBCC008D2ED4 /* Flex+Extension.swift in Sources */,
 				EC82FB5420F4276200EF1D29 /* LoginCoordinator.swift in Sources */,
+				EC87503220F4E9A4008D2ED4 /* LoginViewModel.swift in Sources */,
+				EC87503820F4EC26008D2ED4 /* ColorTheme.swift in Sources */,
 				EC82FB4C20F4273700EF1D29 /* CreatePresetCoordinator.swift in Sources */,
+				EC87503420F4E9AD008D2ED4 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

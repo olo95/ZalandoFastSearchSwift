@@ -18,7 +18,7 @@ class InitCoordinator: Coordinating {
     var parentCoordinator: Coordinating?
     
     func start() {
-        
+        addNew(coordinator: LoginCoordinator(parent: self), fromRoot: true, completionHandler: nil)
     }
     
     required init(parent: Coordinating?) {
