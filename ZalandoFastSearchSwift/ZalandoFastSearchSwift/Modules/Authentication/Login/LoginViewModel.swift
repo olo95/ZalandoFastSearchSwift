@@ -10,9 +10,9 @@ import RxSwift
 
 class LoginViewModel {
     
-    let flowDelegate: LoginCoordinator
+    let flowDelegate: LoginCoordinatorDelegate
     
-    init(flowDelegate: LoginCoordinator) {
+    init(flowDelegate: LoginCoordinatorDelegate) {
         self.flowDelegate = flowDelegate
     }
 }

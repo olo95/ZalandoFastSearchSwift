@@ -21,7 +21,7 @@ class InitCoordinator: Coordinating {
     
     func start() {
         navigationController.setViewControllers([UIViewController()], animated: false)
-        addNew(coordinator: LoginCoordinator(parent: self), fromRoot: false, completionHandler: nil)
+        addNew(coordinator: AuthenticationCoordinator(parent: self), fromRoot: false, completionHandler: nil)
     }
     
     init(parent: Coordinating?, window: UIWindow) {

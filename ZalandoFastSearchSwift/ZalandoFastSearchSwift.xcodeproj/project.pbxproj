@@ -15,8 +15,6 @@
 		EC82FB4C20F4273700EF1D29 /* CreatePresetCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB4B20F4273700EF1D29 /* CreatePresetCoordinator.swift */; };
 		EC82FB4E20F4274100EF1D29 /* ResultCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB4D20F4274100EF1D29 /* ResultCoordinator.swift */; };
 		EC82FB5020F4274C00EF1D29 /* PresetsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB4F20F4274C00EF1D29 /* PresetsCoordinator.swift */; };
-		EC82FB5220F4275600EF1D29 /* RegisterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB5120F4275600EF1D29 /* RegisterCoordinator.swift */; };
-		EC82FB5420F4276200EF1D29 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB5320F4276200EF1D29 /* LoginCoordinator.swift */; };
 		EC87503020F4E999008D2ED4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87502F20F4E999008D2ED4 /* LoginView.swift */; };
 		EC87503220F4E9A4008D2ED4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87503120F4E9A4008D2ED4 /* LoginViewModel.swift */; };
 		EC87503420F4E9AD008D2ED4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87503320F4E9AD008D2ED4 /* LoginViewController.swift */; };
@@ -27,6 +25,10 @@
 		EC87504420F6240E008D2ED4 /* ZalandoFastSearchSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC87504220F6240E008D2ED4 /* ZalandoFastSearchSwift.xcdatamodeld */; };
 		EC87504620F62571008D2ED4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87504520F62571008D2ED4 /* CoreDataManager.swift */; };
 		EC87504820F6270F008D2ED4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87504720F6270F008D2ED4 /* User.swift */; };
+		EC87504A20F631FC008D2ED4 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87504920F631FC008D2ED4 /* RegisterView.swift */; };
+		EC87504C20F63206008D2ED4 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87504B20F63206008D2ED4 /* RegisterViewModel.swift */; };
+		EC87504E20F6320E008D2ED4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87504D20F6320E008D2ED4 /* RegisterViewController.swift */; };
+		EC87505220F632FE008D2ED4 /* AuthenticationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87505120F632FE008D2ED4 /* AuthenticationCoordinator.swift */; };
 		ECF24AB920F298A900A1B1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */; };
 		ECF24AC020F298AB00A1B1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */; };
 		ECF24AC320F298AB00A1B1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF24AC120F298AB00A1B1F4 /* LaunchScreen.storyboard */; };
@@ -66,8 +68,6 @@
 		EC82FB4B20F4273700EF1D29 /* CreatePresetCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePresetCoordinator.swift; sourceTree = "<group>"; };
 		EC82FB4D20F4274100EF1D29 /* ResultCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCoordinator.swift; sourceTree = "<group>"; };
 		EC82FB4F20F4274C00EF1D29 /* PresetsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetsCoordinator.swift; sourceTree = "<group>"; };
-		EC82FB5120F4275600EF1D29 /* RegisterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCoordinator.swift; sourceTree = "<group>"; };
-		EC82FB5320F4276200EF1D29 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		EC87502F20F4E999008D2ED4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		EC87503120F4E9A4008D2ED4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		EC87503320F4E9AD008D2ED4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +78,10 @@
 		EC87504320F6240E008D2ED4 /* ZalandoFastSearchSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZalandoFastSearchSwift.xcdatamodel; sourceTree = "<group>"; };
 		EC87504520F62571008D2ED4 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		EC87504720F6270F008D2ED4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EC87504920F631FC008D2ED4 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		EC87504B20F63206008D2ED4 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		EC87504D20F6320E008D2ED4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EC87505120F632FE008D2ED4 /* AuthenticationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationCoordinator.swift; sourceTree = "<group>"; };
 		ECF24AB520F298A900A1B1F4 /* ZalandoFastSearchSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZalandoFastSearchSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,7 +149,6 @@
 		EC82FB3E20F3FC3400EF1D29 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				EC82FB5320F4276200EF1D29 /* LoginCoordinator.swift */,
 				EC87502F20F4E999008D2ED4 /* LoginView.swift */,
 				EC87503120F4E9A4008D2ED4 /* LoginViewModel.swift */,
 				EC87503320F4E9AD008D2ED4 /* LoginViewController.swift */,
@@ -156,7 +159,9 @@
 		EC82FB3F20F3FC3F00EF1D29 /* Register */ = {
 			isa = PBXGroup;
 			children = (
-				EC82FB5120F4275600EF1D29 /* RegisterCoordinator.swift */,
+				EC87504920F631FC008D2ED4 /* RegisterView.swift */,
+				EC87504B20F63206008D2ED4 /* RegisterViewModel.swift */,
+				EC87504D20F6320E008D2ED4 /* RegisterViewController.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -226,6 +231,26 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		EC87504F20F632C9008D2ED4 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				EC87505120F632FE008D2ED4 /* AuthenticationCoordinator.swift */,
+				EC82FB3F20F3FC3F00EF1D29 /* Register */,
+				EC82FB3E20F3FC3400EF1D29 /* Login */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		EC87505020F632D3008D2ED4 /* PresetsBrowsing */ = {
+			isa = PBXGroup;
+			children = (
+				EC82FB4220F3FC5A00EF1D29 /* CreatePreset */,
+				EC82FB4120F3FC5100EF1D29 /* Result */,
+				EC82FB4020F3FC4500EF1D29 /* Presets */,
+			);
+			path = PresetsBrowsing;
+			sourceTree = "<group>";
+		};
 		ECF24AAC20F298A900A1B1F4 = {
 			isa = PBXGroup;
 			children = (
@@ -290,11 +315,8 @@
 			isa = PBXGroup;
 			children = (
 				EC82FB4520F3FD5800EF1D29 /* Init */,
-				EC82FB4220F3FC5A00EF1D29 /* CreatePreset */,
-				EC82FB4120F3FC5100EF1D29 /* Result */,
-				EC82FB4020F3FC4500EF1D29 /* Presets */,
-				EC82FB3F20F3FC3F00EF1D29 /* Register */,
-				EC82FB3E20F3FC3400EF1D29 /* Login */,
+				EC87504F20F632C9008D2ED4 /* Authentication */,
+				EC87505020F632D3008D2ED4 /* PresetsBrowsing */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -558,14 +580,16 @@
 				EC87504620F62571008D2ED4 /* CoreDataManager.swift in Sources */,
 				EC87503020F4E999008D2ED4 /* LoginView.swift in Sources */,
 				EC87503F20F4FD34008D2ED4 /* BaseViewController.swift in Sources */,
-				EC82FB5220F4275600EF1D29 /* RegisterCoordinator.swift in Sources */,
+				EC87504A20F631FC008D2ED4 /* RegisterView.swift in Sources */,
+				EC87504E20F6320E008D2ED4 /* RegisterViewController.swift in Sources */,
 				EC82FB4820F3FE6400EF1D29 /* Coordinating.swift in Sources */,
 				ECF24AB920F298A900A1B1F4 /* AppDelegate.swift in Sources */,
+				EC87504C20F63206008D2ED4 /* RegisterViewModel.swift in Sources */,
 				EC87503D20F4FBCC008D2ED4 /* Flex+Extension.swift in Sources */,
-				EC82FB5420F4276200EF1D29 /* LoginCoordinator.swift in Sources */,
 				EC87503220F4E9A4008D2ED4 /* LoginViewModel.swift in Sources */,
 				EC87503820F4EC26008D2ED4 /* ColorTheme.swift in Sources */,
 				EC87504820F6270F008D2ED4 /* User.swift in Sources */,
+				EC87505220F632FE008D2ED4 /* AuthenticationCoordinator.swift in Sources */,
 				EC87504420F6240E008D2ED4 /* ZalandoFastSearchSwift.xcdatamodeld in Sources */,
 				EC82FB4C20F4273700EF1D29 /* CreatePresetCoordinator.swift in Sources */,
 				EC87503420F4E9AD008D2ED4 /* LoginViewController.swift in Sources */,
