@@ -24,6 +24,9 @@
 		EC87503B20F4F465008D2ED4 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87503A20F4F465008D2ED4 /* BaseView.swift */; };
 		EC87503D20F4FBCC008D2ED4 /* Flex+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87503C20F4FBCC008D2ED4 /* Flex+Extension.swift */; };
 		EC87503F20F4FD34008D2ED4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87503E20F4FD34008D2ED4 /* BaseViewController.swift */; };
+		EC87504420F6240E008D2ED4 /* ZalandoFastSearchSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC87504220F6240E008D2ED4 /* ZalandoFastSearchSwift.xcdatamodeld */; };
+		EC87504620F62571008D2ED4 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87504520F62571008D2ED4 /* CoreDataManager.swift */; };
+		EC87504820F6270F008D2ED4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87504720F6270F008D2ED4 /* User.swift */; };
 		ECF24AB920F298A900A1B1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */; };
 		ECF24AC020F298AB00A1B1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */; };
 		ECF24AC320F298AB00A1B1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF24AC120F298AB00A1B1F4 /* LaunchScreen.storyboard */; };
@@ -72,6 +75,9 @@
 		EC87503A20F4F465008D2ED4 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		EC87503C20F4FBCC008D2ED4 /* Flex+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flex+Extension.swift"; sourceTree = "<group>"; };
 		EC87503E20F4FD34008D2ED4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EC87504320F6240E008D2ED4 /* ZalandoFastSearchSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZalandoFastSearchSwift.xcdatamodel; sourceTree = "<group>"; };
+		EC87504520F62571008D2ED4 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		EC87504720F6270F008D2ED4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ECF24AB520F298A900A1B1F4 /* ZalandoFastSearchSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZalandoFastSearchSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF24AB820F298A900A1B1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -190,6 +196,7 @@
 		EC82FB4420F3FD4200EF1D29 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EC87504720F6270F008D2ED4 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -256,6 +263,7 @@
 				ECF24ABF20F298AB00A1B1F4 /* Assets.xcassets */,
 				ECF24AC120F298AB00A1B1F4 /* LaunchScreen.storyboard */,
 				ECF24AC420F298AB00A1B1F4 /* Info.plist */,
+				EC87504220F6240E008D2ED4 /* ZalandoFastSearchSwift.xcdatamodeld */,
 			);
 			path = ZalandoFastSearchSwift;
 			sourceTree = "<group>";
@@ -309,6 +317,7 @@
 		ECF24AE920F2AA9800A1B1F4 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				EC87504520F62571008D2ED4 /* CoreDataManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -546,6 +555,7 @@
 				EC87503B20F4F465008D2ED4 /* BaseView.swift in Sources */,
 				EC82FB5020F4274C00EF1D29 /* PresetsCoordinator.swift in Sources */,
 				EC82FB4E20F4274100EF1D29 /* ResultCoordinator.swift in Sources */,
+				EC87504620F62571008D2ED4 /* CoreDataManager.swift in Sources */,
 				EC87503020F4E999008D2ED4 /* LoginView.swift in Sources */,
 				EC87503F20F4FD34008D2ED4 /* BaseViewController.swift in Sources */,
 				EC82FB5220F4275600EF1D29 /* RegisterCoordinator.swift in Sources */,
@@ -555,6 +565,8 @@
 				EC82FB5420F4276200EF1D29 /* LoginCoordinator.swift in Sources */,
 				EC87503220F4E9A4008D2ED4 /* LoginViewModel.swift in Sources */,
 				EC87503820F4EC26008D2ED4 /* ColorTheme.swift in Sources */,
+				EC87504820F6270F008D2ED4 /* User.swift in Sources */,
+				EC87504420F6240E008D2ED4 /* ZalandoFastSearchSwift.xcdatamodeld in Sources */,
 				EC82FB4C20F4273700EF1D29 /* CreatePresetCoordinator.swift in Sources */,
 				EC87503420F4E9AD008D2ED4 /* LoginViewController.swift in Sources */,
 			);
@@ -881,6 +893,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC87504220F6240E008D2ED4 /* ZalandoFastSearchSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC87504320F6240E008D2ED4 /* ZalandoFastSearchSwift.xcdatamodel */,
+			);
+			currentVersion = EC87504320F6240E008D2ED4 /* ZalandoFastSearchSwift.xcdatamodel */;
+			path = ZalandoFastSearchSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ECF24AAD20F298A900A1B1F4 /* Project object */;
 }

@@ -12,8 +12,6 @@ import class UIKit.UIWindow
 import class UIKit.UIScreen
 
 class InitCoordinator: Coordinating {
-    
-    let window: UIWindow
     var navigationController: UINavigationController = {
         return UINavigationController()
     }()
@@ -26,12 +24,13 @@ class InitCoordinator: Coordinating {
         addNew(coordinator: LoginCoordinator(parent: self), fromRoot: false, completionHandler: nil)
     }
     
-    required init(parent: Coordinating?) {
+    init(parent: Coordinating?, window: UIWindow) {
         self.parentCoordinator = parent
-        window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
     }
     
-    
+    required init(parent: Coordinating?) {
+        self.parentCoordinator = parent
+    }
 }

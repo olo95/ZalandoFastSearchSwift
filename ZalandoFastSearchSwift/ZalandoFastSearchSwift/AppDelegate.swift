@@ -12,8 +12,9 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
-    private let initCoordinator: InitCoordinator = {
-        let initCoordinator = InitCoordinator(parent: nil)
+    let window = UIWindow(frame: UIScreen.main.bounds)
+    private lazy var initCoordinator: InitCoordinator = {
+        let initCoordinator = InitCoordinator(parent: nil, window: window)
         return initCoordinator
     }()
 

@@ -33,7 +33,7 @@ enum ColorTheme {
         case .surface: return #colorLiteral(red: 0.9999478459, green: 1, blue: 0.9998740554, alpha: 1)
         case .error: return #colorLiteral(red: 0.8090102077, green: 0.2088997662, blue: 0.2082743347, alpha: 1)
         case .onPrimary: return #colorLiteral(red: 0.1019530371, green: 0.101966165, blue: 0.10194204, alpha: 1)
-        case .onSecondary: return #colorLiteral(red: 0.5999676585, green: 0.6000225544, blue: 0.5999218225, alpha: 1)
+        case .onSecondary: return #colorLiteral(red: 0.9002146546, green: 0.9113284158, blue: 0.9113284158, alpha: 1)
         case .onBackground: return #colorLiteral(red: 0.631447196, green: 0.6000415683, blue: 0.5999302268, alpha: 1)
         case .onSurface: return #colorLiteral(red: 0.1019530371, green: 0.101966165, blue: 0.10194204, alpha: 1)
         case .onError: return #colorLiteral(red: 0.9880785346, green: 1, blue: 0.9685420394, alpha: 1)
