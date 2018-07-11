@@ -14,41 +14,40 @@ class CoreDataManager {
     static let shared = CoreDataManager()
     private init() { }
     
-//    func fetchUsers() -> [UserCredentials]? {
-//
-//        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return nil }
-//        let managedContext = appDelegate.persistentContainer.viewContext
-//        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "User")
-//        do {
-//            let response: [NSManagedObject] = try managedContext.fetch(fetchRequest)
-//            return response
-//                .filter { $0.value(forKey: "login") != nil && $0.value(forKey: "password") != nil }
-//                .map { UserCredentials(login: $0.value(forKey: "login") as! String, password: $0.value(forKey: "password") as! String) }
-//        } catch let error as NSError {
-//            print("Could not fetch. \(error), \(error.userInfo)")
-//            return nil
-//        }
-//    }
+    func fetchUsers() -> [UserCredentials]? {
+
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return nil }
+        let managedContext = appDelegate.persistentContainer.viewContext
+        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "User")
+        do {
+            let response: [NSManagedObject] = try managedContext.fetch(fetchRequest)
+            return response
+                .filter { $0.value(forKey: "login") != nil && $0.value(forKey: "password") != nil }
+                .map { UserCredentials(login: $0.value(forKey: "login") as! String, password: $0.value(forKey: "password") as! String) }
+        } catch let error as NSError {
+            print("Could not fetch. \(error), \(error.userInfo)")
+            return nil
+        }
+    }
     
     func checkUser(with userCredentials: UserCredentials) -> Bool {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return false }
         let context = appDelegate.persistentContainer.viewContext
         
         let fetch = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
-        let predicate = NSPredicate(format: "login = %@ && password = %@", argumentArray: [userCredentials.login, userCredentials.password])
-        fetch.predicate = predicate
+        let compoundPredicate = NSCompoundPredicate(type: .and, subpredicates: [NSPredicate(format: "login = %@", userCredentials.login), NSPredicate(format: "password = %@", userCredentials.password)])
+        fetch.predicate = compoundPredicate
         
         do {
-            let _ = try context.fetch(fetch)
-            return true
+            return try !context.fetch(fetch).isEmpty
         } catch {
             return false
         }
     }
     
-    func saveUser(with userCredentials: UserCredentials) {
+    func saveUser(with userCredentials: UserCredentials) -> Bool {
         
-        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return false }
         
         let managedContext = appDelegate.persistentContainer.viewContext
         let entity = NSEntityDescription.entity(forEntityName: "User", in: managedContext)!
@@ -58,8 +57,10 @@ class CoreDataManager {
         
         do {
             try managedContext.save()
+            return true
         } catch let error as NSError {
             print("Could not save. \(error), \(error.userInfo)")
+            return false
         }
     }
 }

@@ -31,22 +31,22 @@ class LoginView: BaseView {
         return view
     }()
     
-    private let titleLabel: UILabel = {
+    let titleLabel: UILabel = {
         let label = UILabel()
         return label
     }()
     
-    private let loginTextField: MDCTextField = {
+    let loginTextField: MDCTextField = {
         let textField = MDCTextField()
         return textField
     }()
     
-    private let passwordTextField: MDCTextField = {
+    let passwordTextField: MDCTextField = {
         let textField = MDCTextField()
         return textField
     }()
     
-    private let loginButton: MDCButton = {
+    let loginButton: MDCButton = {
         let button = MDCButton(type: .system)
         button.backgroundColor = ColorTheme.primary.value
         button.setTitle("Login", for: .normal)
@@ -55,7 +55,7 @@ class LoginView: BaseView {
         return button
     }()
     
-    private let registerButton: MDCButton = {
+    let registerButton: MDCButton = {
         let button = MDCButton(type: .system)
         button.backgroundColor = ColorTheme.primary.value
         button.setTitle("Register", for: .normal)
@@ -94,10 +94,7 @@ class LoginView: BaseView {
         rootFlexContainer.flex
             .define { flex in
                 flex.addItem(loginContainer)
-                    .marginTop(64)
-                    .marginLeft(8)
-                    .marginRight(8)
-                    .marginBottom(8)
+                    .margin(64, 8, 8, 8)
                     .grow(1)
                     .shadow(shadowOffset: CGSize(width: 5, height: 5), shadowOpacity: 0.5, shadowRadius: 1.0)
                     .direction(.column)

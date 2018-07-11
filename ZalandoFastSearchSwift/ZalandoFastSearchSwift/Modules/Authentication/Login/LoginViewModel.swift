@@ -15,4 +15,8 @@ class LoginViewModel {
     init(flowDelegate: LoginCoordinatorDelegate) {
         self.flowDelegate = flowDelegate
     }
+    
+    func checkUser(with userCredentials: UserCredentials) -> Bool {
+        return CoreDataManager.shared.checkUser(with: userCredentials)
+    }
 }

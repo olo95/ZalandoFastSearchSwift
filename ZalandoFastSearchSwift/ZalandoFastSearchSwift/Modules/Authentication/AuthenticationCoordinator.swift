@@ -39,7 +39,7 @@ class AuthenticationCoordinator: Coordinating {
 
 extension AuthenticationCoordinator: RegisterCoordinatorDelegate {
     func registerSuccess() {
-        
+        pop(completionHandler: nil)
     }
     
     func registerFailed() {
@@ -57,6 +57,6 @@ extension AuthenticationCoordinator: LoginCoordinatorDelegate {
     }
     
     func registerButtonTapped() {
-        
+        push(viewController: RegisterViewController(viewModel: RegisterViewModel(flowDelegate: self)), completionHandler: nil)
     }
 }

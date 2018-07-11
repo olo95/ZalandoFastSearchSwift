@@ -15,4 +15,12 @@ class RegisterViewModel {
     init(flowDelegate: RegisterCoordinatorDelegate) {
         self.flowDelegate = flowDelegate
     }
+    
+    func checkUser(with userCredentials: UserCredentials) -> Bool {
+        return CoreDataManager.shared.checkUser(with: userCredentials)
+    }
+    
+    func registerUser(with userCredentials: UserCredentials) -> Bool {
+        return CoreDataManager.shared.saveUser(with: userCredentials)
+    }
 }
