@@ -48,11 +48,7 @@ class LoginViewController: BaseViewController {
             .filter { !$0.login.isEmpty && !$0.password.isEmpty }
             .sample(mainView.loginButton.rx.tap)
             .subscribe( onNext: { [viewModel] in
-                if viewModel.checkUser(with: $0) {
-                    viewModel.flowDelegate.loginSuccess()
-                } else {
-                    viewModel.flowDelegate.loginFailed()
-                }
+                viewModel.checkUser(with: $0) ? viewModel.flowDelegate.loginSuccess() : viewModel.flowDelegate.loginFailed()
             }).disposed(by: disposeBag)
     }
 }

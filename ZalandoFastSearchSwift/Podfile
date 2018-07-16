@@ -12,7 +12,6 @@ target 'ZalandoFastSearchSwift' do
   pod 'FlexLayout'
   pod 'PinLayout'
   pod 'SnapKit'
-  pod 'Moya'
   pod 'RxSwift'
   pod 'RxCocoa'
 
