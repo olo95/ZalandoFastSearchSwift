@@ -17,6 +17,9 @@
 		EC81170220FD0C18007CBE88 /* ArticleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81170120FD0C18007CBE88 /* ArticleImage.swift */; };
 		EC81170420FD0D3D007CBE88 /* ArticleUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81170320FD0D3D007CBE88 /* ArticleUnit.swift */; };
 		EC81170620FD0D93007CBE88 /* ArticlePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81170520FD0D93007CBE88 /* ArticlePrice.swift */; };
+		EC81170820FE1107007CBE88 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81170720FE1107007CBE88 /* NetworkManager.swift */; };
+		EC81170A20FE1884007CBE88 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81170920FE1884007CBE88 /* Router.swift */; };
+		EC81170C20FE443A007CBE88 /* ArticleFilterOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC81170B20FE443A007CBE88 /* ArticleFilterOptions.swift */; };
 		EC82FB4820F3FE6400EF1D29 /* Coordinating.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB4720F3FE6400EF1D29 /* Coordinating.swift */; };
 		EC82FB4A20F4272800EF1D29 /* InitCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB4920F4272800EF1D29 /* InitCoordinator.swift */; };
 		EC82FB4C20F4273700EF1D29 /* CreatePresetCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC82FB4B20F4273700EF1D29 /* CreatePresetCoordinator.swift */; };
@@ -77,6 +80,9 @@
 		EC81170120FD0C18007CBE88 /* ArticleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleImage.swift; sourceTree = "<group>"; };
 		EC81170320FD0D3D007CBE88 /* ArticleUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleUnit.swift; sourceTree = "<group>"; };
 		EC81170520FD0D93007CBE88 /* ArticlePrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePrice.swift; sourceTree = "<group>"; };
+		EC81170720FE1107007CBE88 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EC81170920FE1884007CBE88 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		EC81170B20FE443A007CBE88 /* ArticleFilterOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleFilterOptions.swift; sourceTree = "<group>"; };
 		EC82FB4720F3FE6400EF1D29 /* Coordinating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinating.swift; sourceTree = "<group>"; };
 		EC82FB4920F4272800EF1D29 /* InitCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitCoordinator.swift; sourceTree = "<group>"; };
 		EC82FB4B20F4273700EF1D29 /* CreatePresetCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePresetCoordinator.swift; sourceTree = "<group>"; };
@@ -216,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				EC87504720F6270F008D2ED4 /* UserCredentials.swift */,
+				EC81170B20FE443A007CBE88 /* ArticleFilterOptions.swift */,
 				EC8116FB20FD06AF007CBE88 /* Article.swift */,
 				EC8116FD20FD0A14007CBE88 /* ArticleAttribute.swift */,
 				EC8116FF20FD0A4B007CBE88 /* ArticleBrand.swift */,
@@ -344,6 +351,8 @@
 		ECF24AE720F2AA8A00A1B1F4 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				EC81170720FE1107007CBE88 /* NetworkManager.swift */,
+				EC81170920FE1884007CBE88 /* Router.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -609,12 +618,15 @@
 				EC87503D20F4FBCC008D2ED4 /* Flex+Extension.swift in Sources */,
 				EC81170020FD0A4B007CBE88 /* ArticleBrand.swift in Sources */,
 				EC87503220F4E9A4008D2ED4 /* LoginViewModel.swift in Sources */,
+				EC81170A20FE1884007CBE88 /* Router.swift in Sources */,
 				EC87503820F4EC26008D2ED4 /* ColorTheme.swift in Sources */,
 				EC87504820F6270F008D2ED4 /* UserCredentials.swift in Sources */,
 				EC87505220F632FE008D2ED4 /* AuthenticationCoordinator.swift in Sources */,
+				EC81170820FE1107007CBE88 /* NetworkManager.swift in Sources */,
 				EC87504420F6240E008D2ED4 /* ZalandoFastSearchSwift.xcdatamodeld in Sources */,
 				EC82FB4C20F4273700EF1D29 /* CreatePresetCoordinator.swift in Sources */,
 				EC87503420F4E9AD008D2ED4 /* LoginViewController.swift in Sources */,
+				EC81170C20FE443A007CBE88 /* ArticleFilterOptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
